@@ -1,0 +1,163 @@
+#navigationbar {
+	position: fixed;
+	top: 0px;
+	left: 143px;
+	pointer-events: none;		
+}
+
+
+
+#sidebar {
+	position: fixed;
+	top: 330px;
+	left: 0px;
+	pointer-events: none;
+}
+
+#links {
+	position: fixed;
+	top: 28px;
+	left: 232px;
+	font-family: Arial;
+}
+
+#content {
+	position: absolute;
+	top: 147px;
+	left: 174px;
+	font-family: Arial;
+	font-size: 18px;
+}
+
+#logo {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	pointer-events: none;
+}
+
+#paragee {
+	position: absolute;
+	top: 2041px;
+	left: 214px;
+}
+
+/* <Links> */
+
+a:link {
+	text-decoration: none;
+	color:#000000;
+}
+
+a:hover {
+	color: #D1D1D1;
+}
+
+a:visited {
+	color: #000000;
+}
+
+/* <Links> */
+
+#mainpage {
+	font-size: 28px;
+	position: fixed;
+	top: 21px;
+	left: 174px;
+}
+
+#PWAA {
+	font-size: 28px;
+	position: fixed;
+	top: 21px;
+	left: 328px;
+}
+
+#PWAAJFA {
+	font-size: 28px;
+	position: fixed;
+	top: 21px;
+	left: 443px;
+}
+
+#PWAATT {
+	font-size: 28px;
+	position: fixed;
+	top: 21px;
+	left: 624px;
+}
+
+#AJAA {
+	font-size: 28px;
+	position: fixed;
+	top: 21px;
+	left: 803px;
+}
+
+#PWAADD {
+	font-size: 28px;
+	position: fixed;
+	top: 21px;
+	left: 902px;
+}
+
+#contact {
+	font-size: 28px;
+	position: fixed;
+	top: 21px;
+	left: 1072px;
+}
+
+#credits {
+	font-size: 28px;
+	position: fixed;
+	top: 21px;
+	left: 1191px;
+}
+
+#changelog {
+	font-size: 28px;
+	position: fixed;
+	top: 21px;
+	left: 1305px;
+}
+
+/* </Links>*/
+
+
+#apollo_help {
+	position: absolute;
+	top: 182px;
+	left: 1506px;
+	pointer-events: none;
+}
+
+#apollo_tip {
+	position: absolute;
+	top: 222px;
+	left: 1292px;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+#bored {
+	position: fixed;
+	top: 320px;
+	left: 30px;
+	font-size: 25px;
+	font-family: Arial;
+}
+
+/* bored.html */
+
+#kay {
+	position: absolute;
+	left: 1224px;
+	top: 93px;
+}
+
+#moe {
+	position: absolute;
+	left: 727px;
+	top: 127px;
+}
