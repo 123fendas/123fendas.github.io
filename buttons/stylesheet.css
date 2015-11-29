@@ -1,0 +1,43 @@
+/*  
+
+Why hello there! Are you viewing my source code? Pleased to meet you!
+If you're reading this, let me know on my YouTube! Just leave a comment.
+
+*/
+
+
+/* HTML elements */
+
+p {
+	font-size: 13px;
+	font-family: Arial;
+}
+
+/* Link CSS */
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #0000EE;	
+}
+
+/* #IDs */
+
+#button {
+	outline: 0;
+	position: relative;
+	top: 170px;
+}
+
+
+#credit {
+	position: relative;
+	top: 442px;
+}
+
+#credit2 {
+	position: relative;
+	top: 432px;
+}
