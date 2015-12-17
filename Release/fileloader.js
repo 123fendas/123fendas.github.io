@@ -20,8 +20,8 @@ Module.expectedDataFileDownloads++;
     } else {
       throw 'using preloaded data can only be done on a web page or in a web worker';
     }
-    var PACKAGE_NAME = 'Timing Game WebGL.data';
-    var REMOTE_PACKAGE_BASE = 'Timing Game WebGL.data';
+    var PACKAGE_NAME = 'WebGL HTML5.data';
+    var REMOTE_PACKAGE_BASE = 'WebGL HTML5.data';
     if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
       Module['locateFile'] = Module['locateFilePackage'];
       Module.printErr('warning: you defined Module.locateFilePackage, that has been renamed to Module.locateFile (using your locateFilePackage for now)');
@@ -30,8 +30,8 @@ Module.expectedDataFileDownloads++;
                               Module['locateFile'](REMOTE_PACKAGE_BASE) :
                               ((Module['filePackagePrefixURL'] || '') + REMOTE_PACKAGE_BASE);
   
-      var REMOTE_PACKAGE_SIZE = 13594533;
-      var PACKAGE_UUID = 'e223ba5c-45e8-46f3-b767-e42a1c9c47e0';
+      var REMOTE_PACKAGE_SIZE = 13633353;
+      var PACKAGE_UUID = '93be6871-0518-4ffe-a937-64c72776cbed';
     
     function fetchRemotePackage(packageName, packageSize, callback, errback) {
       var xhr = new XMLHttpRequest();
@@ -132,12 +132,12 @@ Module['FS_createPath']('/', 'Resources', true, true);
       },
     };
 
-      new DataRequest(0, 21804, 0, 0).open('GET', '/mainData');
-    new DataRequest(21804, 21825, 0, 0).open('GET', '/methods_pointedto_by_uievents.xml');
-    new DataRequest(21825, 10045961, 0, 0).open('GET', '/sharedassets0.assets');
-    new DataRequest(10045961, 11203377, 0, 0).open('GET', '/Il2CppData/Metadata/global-metadata.dat');
-    new DataRequest(11203377, 13090801, 0, 0).open('GET', '/Resources/unity_default_resources');
-    new DataRequest(13090801, 13594533, 0, 0).open('GET', '/Resources/unity_builtin_extra');
+      new DataRequest(0, 22372, 0, 0).open('GET', '/mainData');
+    new DataRequest(22372, 22393, 0, 0).open('GET', '/methods_pointedto_by_uievents.xml');
+    new DataRequest(22393, 10046529, 0, 0).open('GET', '/sharedassets0.assets');
+    new DataRequest(10046529, 11237453, 0, 0).open('GET', '/Il2CppData/Metadata/global-metadata.dat');
+    new DataRequest(11237453, 13129469, 0, 0).open('GET', '/Resources/unity_default_resources');
+    new DataRequest(13129469, 13633353, 0, 0).open('GET', '/Resources/unity_builtin_extra');
 
     function processPackageData(arrayBuffer) {
       Module.finishedDataFileDownloads++;
@@ -153,10 +153,10 @@ Module['FS_createPath']('/', 'Resources', true, true);
           DataRequest.prototype.requests["/Il2CppData/Metadata/global-metadata.dat"].onload();
           DataRequest.prototype.requests["/Resources/unity_default_resources"].onload();
           DataRequest.prototype.requests["/Resources/unity_builtin_extra"].onload();
-          Module['removeRunDependency']('datafile_Timing Game WebGL.data');
+          Module['removeRunDependency']('datafile_WebGL HTML5.data');
 
     };
-    Module['addRunDependency']('datafile_Timing Game WebGL.data');
+    Module['addRunDependency']('datafile_WebGL HTML5.data');
   
     if (!Module.preloadResults) Module.preloadResults = {};
   
